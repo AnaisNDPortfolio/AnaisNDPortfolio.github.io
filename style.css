@@ -36,7 +36,7 @@
 #navbar-logo {
     color: var(--be);
     justify-self: start;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 #navbar-logo {
@@ -48,7 +48,7 @@
     grid-template-columns: repeat(4,auto);
     list-style: none;
     text-align: center;
-    width: 85%;
+    width: 80%;
     justify-self: end;
 }
 
@@ -106,7 +106,7 @@
     }
     
     #navbar-logo {
-        margin-left: 15px;
+        margin-left: 30px;
     }
 
     .nav-menu.active {
