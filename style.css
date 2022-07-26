@@ -86,7 +86,7 @@
     background-color: var(--be);
 }
 
-@media all and (max-width: 50px) {
+@media all and (max-width: 300px) {
 
     .nav-container {
         position: relative;
