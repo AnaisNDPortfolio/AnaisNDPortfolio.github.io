@@ -25,7 +25,7 @@
 
 .navbar {
     display: grid;
-    grid-template-columns: 0.2fr auto 1fr;
+    grid-template-columns: 0.2fr auto 0.8fr;
     align-items: center;
     height: 100px;
     width:100%;
@@ -36,7 +36,7 @@
 #navbar-logo {
     color: var(--be);
     justify-self: start;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 #navbar-logo {
@@ -48,7 +48,7 @@
     grid-template-columns: repeat(4,auto);
     list-style: none;
     text-align: center;
-    width: 80%;
+    width: 85%;
     justify-self: end;
 }
 
@@ -106,7 +106,7 @@
     }
     
     #navbar-logo {
-        margin-left: 30px;
+        margin-left: 15px;
     }
 
     .nav-menu.active {
@@ -178,82 +178,5 @@
 
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .main {
-        background-color: var(--w);
-    }
-    
-    .home-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        justify-self: center;
-        width: 80%;
-        margin: 0 auto;
-        height: 90vh;
-        background-color: var(--w);
-    }
-    
-    .home-content {
-        justify-self: start;
-        margin-left: 20px;
-        background-color: var(--w);
-        color: var(--b);
-        width: 80%;
-    }
-    
-    .home-content h1 {
-        font-size: 1rem;
-    }
-    
-    .home-content p {
-        margin: 1rem;
-        font-size: 1.2rem;
-    }
-    
-    .main-btn {
-        font-size: 1rem;
-        background-color: var(--b);
-        color: var(--w);
-        margin-top: 2rem;
-        cursor: pointer;
-        position: relative;
-        transition: all 0.35s;
-        outline: none;
-        padding: 8px;
-        border-radius: 16px;
-    }
-    
-    .main-btn a {
-        position: relative;
-        z-index: 2;
-        background-color: var(--b);
-        color: var(--w);
-        text-decoration: none;
-    }
-    
-    .main-btn:after {
-        position: absolute;
-        content: "";
-        top: 0;
-        left: 0;
-        width: 0;
-        height: 100%;
-        transition: all 0.35s;
-        border-radius: 16px;
-        background-color: transparent;
-    }
-    
-    .main-btn:hover {
-        color: var(--b);
-    }
-    
-    .main-btn:hover:after {
-        width: 100%;
-    }
-    
-    .main-img-container {
-        text-align: center;
     }
 }
