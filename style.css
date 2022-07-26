@@ -25,7 +25,7 @@
 
 .navbar {
     display: grid;
-    grid-template-columns: 0.2fr auto 0.8fr;
+    grid-template-columns: 0.2fr auto 1fr;
     align-items: center;
     height: 100px;
     width:100%;
@@ -86,7 +86,7 @@
     background-color: var(--be);
 }
 
-@media all and (max-width: 300px) {
+@media all and (max-width: 50px) {
 
     .nav-container {
         position: relative;
@@ -179,7 +179,7 @@
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    
+
     .main {
         background-color: var(--w);
     }
